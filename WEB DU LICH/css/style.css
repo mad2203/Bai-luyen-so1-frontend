@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 1000px;
+    border: 1px solid black;
+}
+header{
+    width: 100%;
+}
+header {
+    display: inline-block;
+}
+nav{
+    text-align: center;
+    background: rgb(168, 61, 210);
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block; 
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+nav ul li a:hover {
+    background-color: #5292e0; 
+}
+.row{
+    width: 100%;
+    height: 80px;
+}
+  .topnav{
+    margin-right: 50px;
+    padding-top: 10px;
+  }
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    width: 500px;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #357fbb;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+section h1{
+    margin-top: 20px;
+    color: blueviolet;
+    text-align: center;
+}
+section p {
+    margin-top: 20px;
+    color: rgb(101, 99, 103);
+    text-align: center;
+}
+section table{
+    width: 100%;
+    margin-top: 20px;
+}
+section table tr,td {
+    text-align: center;
+}
+section table td {
+    position: relative; 
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+}
+
+section img {
+    width: 100%;
+    height: 100%;
+    display: block; 
+}
+section{
+    width: 100%;
+}
+.infor {
+    margin: 10px;
+    margin-top: 110px;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 310px; 
+    height: 150px; 
+    background: rgba(188, 57, 200, 0.5); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    opacity: 0;
+    transition: opacity 0.3s; 
+}
+
+.infor p, .infor b {
+    color: white; 
+    margin: 5px 0; 
+}
+
+
+section table td:hover .infor {
+    opacity: 1; 
+}
+.travel {
+    margin-top : 50px;
+    width: 100%;
+    height: 600px;
+    background: url(../image/vivu1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.myTravel{
+    background: rgba(188, 57, 200, 0.5); 
+    margin: 0px 50px;
+    border-radius: 15px;
+    padding-bottom: 20px ;
+}
+.myTravel p,.myTravel h1{
+    color: aliceblue;
+}
+.table-icon td{
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+}
+.infor1 {
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 310px;
+    height: 250px;
+    background: rgba(254, 254, 254, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+td:hover .infor1 {
+    opacity: 1;
+}
+footer{
+    width: 100%;
+    height: 450px;
+    padding-top: 20px;
+    background-color: rgb(17, 2, 33);
+}
+footer table {
+    width: 100%;
+}
+footer table td,th {
+    width: 300px;
+    color: rgb(255, 255, 255);
+}
+.left-align {
+    text-align: left;
+}
+footer table td img {
+    width: 100px;
+    height: 100px;
+}
+footer nav {
+    background-color: rgb(17, 2, 33);
+}
+
+.menu {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.menu li {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.menu li a {
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: white; 
+}
+
+.menu li a:hover {
+    background-color: #555; 
+}
+.input-with-icon {
+    background-image: url('../images/iconDiaDiem.jpg'); 
+    background-repeat: no-repeat;
+    background-position: left center; 
+  }
+
+  .more-text-expanded {
+    display: block;
+}
+
+.more-text-collapsed {
+    display: none;
+}
+
+  
+
+
